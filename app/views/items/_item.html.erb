@@ -1,0 +1,18 @@
+
+<div id="<%= dom_id item %>">
+
+</div>
+<div class="card container" style="width: 18rem; display: inline-flex;">
+  <img src="https://static3.cbrimages.com/wordpress/wp-content/uploads/2020/04/Thor-Featured-Image.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+   <p class="card-text">
+    <strong>Item name:</strong>
+    <%= item.item_name %>
+  </p>
+    <p class="card-text">
+    <strong>Price:</strong>
+    <%= item.price %>
+    </p>
+  </div>
+   <%= link_to "Show this item", item %>
+</div>
